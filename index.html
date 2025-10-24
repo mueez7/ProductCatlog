@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>E Commerce Product Catlog</h1>
+    <h1>Smart Checkout Demo</h1>
+
+    <!-- Category buttons -->
+    <div id="categories">
+        <button data-category="">All</button>
+        <button data-category="smartphones">Smartphones</button>
+        <button data-category="laptops">Laptops</button>
+        <button data-category="fragrances">Fragrances</button>
+        <button data-category="skincare">Skincare</button>
+    </div>
+
+    <!-- Container for products -->
+    <div id="product-container" style="display:flex; flex-wrap: wrap; gap:20px;"></div>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>
